@@ -1,0 +1,32 @@
+{
+  "name": "subpaths",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Given a path ('/foo/bar'), list all possible subpaths (['/', '/foo', '/foo/bar'])",
+  "keywords": [
+    "url",
+    "path",
+    "subpath",
+    "express",
+    "relay",
+    "typescript",
+    "ts-node",
+    "pathname"
+  ],
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "tsc --pretty",
+    "dev": "tsc --pretty --watch",
+    "test": "mocha -r ts-node/register test/*.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.5.2"
+  }
+}
